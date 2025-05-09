@@ -1,0 +1,10 @@
+name: "Auto-Update Dependencies"
+on:
+  schedule: [{ cron: '0 2 * * 1' }]
+jobs:
+  uptodate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dependabot/fetch-metadata@v1
+      - uses: dependabot/dependabot-core@v2
