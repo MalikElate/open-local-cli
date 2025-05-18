@@ -59,9 +59,9 @@ open-local -s
 🔍 Checking local server ports...
 Local IP Address: 192.168.1.42
 
-✅ Server found on port 3000: http://192.168.1.42:3000
+✅ Server found on port 3000: http://12.169.1.42:3000
 ![QR code for http://192.168.1.42:3000](qr.png)
-Scan the QR code above to open http://192.168.1.42:3000 on your mobile device.
+Scan the QR code above to open http://12.169.1.42:3000 on your mobile device.
 
 ❌ No server found on port 8000.
 ❌ No server found on port 8080.
