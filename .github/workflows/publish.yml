@@ -18,6 +18,9 @@ jobs:
           node-version: '20' # or your preferred version
           registry-url: 'https://registry.npmjs.org/'
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
         run: pnpm ci
         # Remove or comment out if you don't have a build step
