@@ -12,7 +12,51 @@ const { version } = require("./package.json"); // To get version from package.js
 
 const program = new Command();
 
-const PORTS_TO_CHECK = [3000, 3001, 3002, 8000, 8001, 8002, 8080, 8081, 8082, 5173, 5000, 54321]; // Added a few more common ones
+const PORTS_TO_CHECK = [
+  3000,
+  3001,
+  3002,
+  8000,
+  8001,
+  8002,
+  8080,
+  8081,
+  8082,
+  5173,
+  5000,
+  54321,
+  4200,
+  9000,
+  9001,
+  1337,
+  7000,
+  7070,
+  6000,
+  6060,
+  6379,
+  27017,
+  5005,
+  5001,
+  4000,
+  1234,
+  35729,
+  9876,
+  6543,
+  4040,
+  5050,
+  19000,
+  19006,
+  3006,
+  3007,
+  4001,
+  7777,
+  5051,
+  6006,
+  6767,
+  3100,
+  3101,
+];
+
 
 // Function to get local IP address
 function getLocalIpAddress() {

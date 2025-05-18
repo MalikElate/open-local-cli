@@ -60,7 +60,7 @@ open-local -s
 Local IP Address: 192.168.1.42
 
 ✅ Server found on port 3000: http://192.168.1.42:3000
-<QR CODE>
+![QR code for http://192.168.1.42:3000](qr.png)
 Scan the QR code above to open http://192.168.1.42:3000 on your mobile device.
 
 ❌ No server found on port 8000.
@@ -74,10 +74,15 @@ Scan the QR code above to open http://192.168.1.42:3000 on your mobile device.
 
 By default, the tool checks these ports:
 
-- 3000, 3001, 3002
-- 8000, 8001, 8002
-- 8080, 8081, 8082
-- 5173, 5000, 54321
+- 1234, 1337, 19000
+- 27017
+- 3000, 3001, 3002, 3006, 3007, 3100, 3101, 35729
+- 4000, 4001, 4040, 4200
+- 5000, 5001, 5005, 5050, 5051, 54321
+- 6000, 6006, 6060, 6379, 6543, 6767
+- 7000, 7070, 7777
+- 8000, 8001, 8002, 8080, 8081, 8082
+- 9001, 9876
 
 ---
 
