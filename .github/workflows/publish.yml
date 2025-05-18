@@ -22,7 +22,7 @@ jobs:
         run: npm install -g pnpm
 
       - name: Install dependencies
-        run: pnpm ci
+        run: pnpm install --frozen-lockfile
         # Remove or comment out if you don't have a build step
 
       - name: Publish to npm
